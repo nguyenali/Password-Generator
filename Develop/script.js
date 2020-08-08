@@ -34,6 +34,7 @@ var i = symbols + lowercase + uppercase;
 var j = numbers + lowercase + uppercase;
 var k = symbols + numbers + lowercase + uppercase;
 
+//User prompt to ask which characters they would like to use
 addSymbols = confirm("Would you like to add special characters? (i.e : !, #, $, *, etc..");
 
 addNumbers =confirm("Would you like to add numbers? (i.e : 1,2,3, etc..");
