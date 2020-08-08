@@ -7,13 +7,17 @@ var generatePassword = document.querySelector("#password");
 generateBtn.addEventListener("click", writePassword);
 
 
+//Prompt for desired password character length 
+
+var charlength = prompt("How many characters would you like your password to be? Password legnth can vary from 8 to 128")
+
 //Variables for characters for password generator
 var symbols ="`~!@#$%^&*()_-+={}[]/;:<>?/";
 var numbers = "0123456789";
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-//Variable to add characters for password generator toegther
+//Variable to add characters for password generator together
 var a = symbols + numbers;
 var b = symbols + uppercase;
 var c = symbols + lowercase;
