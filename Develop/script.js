@@ -1,8 +1,6 @@
-// Assignment code here
-
-
-// Get references to the #generate element
+//Variable elemetns to be manipulated by Javascript
 var generateBtn = document.querySelector("#generate");
+var generatePassword = document.querySelector("#password");
 
 // Write password to the #password input
 function writePassword() {
