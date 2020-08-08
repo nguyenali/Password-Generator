@@ -7,13 +7,24 @@ var generatePassword = document.querySelector("#password");
 generateBtn.addEventListener("click", writePassword);
 
 
-//Variables for password generator
-var Symbols ="`~!@#$%^&*()_-+={}[]/;:<>?/";
-var Numbers = "0123456789";
+//Variables for characters for password generator
+var symbols ="`~!@#$%^&*()_-+={}[]/;:<>?/";
+var numbers = "0123456789";
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-
+//Variable to add characters for password generator toegther
+var a = symbols + numbers;
+var b = symbols + uppercase;
+var c = symbols + lowercase;
+var d = numbers + lowercase;
+var e = numbers + uppercase;
+var f = lowercase + uppercase;
+var g = symbols + numbers + lowercase;
+var h = symbols + numbers + uppercase;
+var i = symbols + lowercase + uppercase;
+var j = numbers + lowercase + uppercase;
+var k = symbols + numbers + lowercase + uppercase;
 
 
 
