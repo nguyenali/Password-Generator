@@ -26,10 +26,10 @@ if  ((charLength >= 8) && (charLength<= 128)) {
 
 
   //User prompt to ask which characters they would like to use
-  let addSymbols = confirm("Would you like to add special characters? (i.e : !, #, $, *, etc..");
-  let addNumbers =confirm("Would you like to add numbers? (i.e : 1,2,3, etc..");
-  let addLowerCase = confirm("Would you like to add lowercase letters? (i.e : a, b, c, etc..");
-  let addUppercase = confirm("Would you like to add uppercase letters? (i.e : A, B, C, etc..");
+  let addSymbols = confirm("Would you like to add special characters? i.e : !, #, $, *, etc..");
+  let addNumbers =confirm("Would you like to add numbers? i.e : 1,2,3, etc..");
+  let addLowerCase = confirm("Would you like to add lowercase letters? i.e : a, b, c, etc..");
+  let addUppercase = confirm("Would you like to add uppercase letters? i.e : A, B, C, etc..");
   
   //Variable to add characters for password generator together
   let a = symbols + numbers + lowercase + uppercase;
