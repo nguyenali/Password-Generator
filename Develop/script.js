@@ -145,15 +145,9 @@ if  ((charLength >= 8) && (charLength<= 128)) {
 
 }
 
-})
-
-
-
-
+})  
   
-  
-//Write password to the #password input
-function writePassword() {
+function generatePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -161,5 +155,3 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
