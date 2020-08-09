@@ -8,7 +8,7 @@ A website that generates out random password
 * JS
 
 ## Website
-https://nguyenali.github.io/Password-Generator/
+
 
 
 ## Contribution
