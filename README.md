@@ -6,8 +6,9 @@
 ## Purpose
 A website that generates out random password
 ## Built With
-* HTML
 * JS
+* HTMl
+* CSS
 
 ## Website
 https://nguyenali.github.io/Password-Generator/
