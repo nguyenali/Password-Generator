@@ -1,1 +1,15 @@
 # Password Generator Starter Code
+
+
+## Purpose
+A website that generates out random password
+## Built With
+* HTML
+* JS
+
+## Website
+https://nguyenali.github.io/Professional-Portfolio/
+
+
+## Contribution
+Made with ❤️ Ali Nguyen
