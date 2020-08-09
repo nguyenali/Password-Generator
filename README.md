@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Password Generator 
 
 ![Screen Shot](https://user-images.githubusercontent.com/67357469/89740207-953dc380-da3b-11ea-81a2-4769ef018666.jpg)
 
